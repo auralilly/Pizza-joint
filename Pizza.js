@@ -1,4 +1,5 @@
 // Pizza Class
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 class Pizza {
   constructor(customerName, phone, email, size, crust, sauce, cheeses, toppings, quantity, instructions) {
     this.customerName = customerName;
