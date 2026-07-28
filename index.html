@@ -40,3 +40,16 @@
 <label><input type="radio" name="size" value='Medium (12")'> Medium (12") - $12.99</label>
 <label><input type="radio" name="size" value='Large (14")'> Large (14") - $15.99</label>
 <label><input type="radio" name="size" value='Extra Large (16")'> Extra Large (16") - $18.99</label>
+
+<fieldset>
+          <legend>Crust Type <span class="required">*</span></legend>
+          <select id="crust" name="crust" required>
+            <option value="">-- Select Crust --</option>
+            <option value="Thin & Crispy">Thin & Crispy</option>
+            <option value="Classic Hand-Tossed">Classic Hand-Tossed</option>
+            <option value="Thick Pan">Thick Pan</option>
+            <option value="Stuffed Crust">Stuffed Crust (+$2.50)</option>
+            <option value="Gluten-Free">Gluten-Free (+$3.00)</option>
+          </select>
+          <span class="error" id="crust-error"></span>
+        </fieldset>
